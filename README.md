@@ -18,4 +18,4 @@ This is an example repository for the final project submission.  Put your abstra
 
 ## Running Instructions
 
-[Try it online](https://github.com/ayush29feb/vega-editor-demo/)
+[Try it online](http://www.ayush.xyz/vega-editor-demo/)
