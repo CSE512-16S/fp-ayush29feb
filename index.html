@@ -20,45 +20,34 @@
 
     <div class='pub' data-spy="scroll" data-target=".navbar">
 
-      <h1 class="title">Final Project Template</h1>
+      <h1 class="title">Statistical Graphics Support For Vega-Lite</h1>
       <div class="authors">
-        <a href="http://jheer.org">Jeffrey Heer</a>,
-        <a href="http://homes.cs.washington.edu/~mcorrell/">Michael Correll</a>,
-        <a href="https://www.cs.washington.edu/node/10324">Jane Hoffswell</a>
+        <a href="http://ayush.xyz">Ayush Saraf</a>,
       </div>
 
       <div class="figure">
-        <img src="summary.png" width="100%"/>
-        <div class="caption">William Playfair’s classic chart comparing the price of wheat and wages in England recreated in the Lyra VDE.</div>
+        <img src="poster.png" width="100%"/>
+        <div class="caption">Statistical Graphics Suppor For Vega-Lite</div>
       </div>
 
       <p>
-        Acknowledgement: Example abstract, image and videos are from <a href="http://idl.cs.washington.edu/projects/lyra">Lyra</a>. <br/><br/>
-        Lyra is an interactive environment that enables custom visualization design without writing any code. Graphical "marks" can be bound to data fields using property drop zones; dynamically positioned using connectors; and directly moved, rotated, and resized using handles. Lyra also provides a data pipeline interface for iterative visual specification of data transformations and layout algorithms. Lyra is more expressive than interactive systems like Tableau, allowing designers to create custom visualizations comparable to hand-coded visualizations built with D3 or Processing. These visualizations can then be easily published and reused on the Web.
+        In this paper we present an extended grammar for primitive mark types like rule, bar and area to support ranged marks in vega-lite [1], a high-level grammar that enables rapid specification of interactive data visualizations. This extended grammar for primitive marks along with layering [1] in vega- lite then allows for representation of various statistical graphics like error bars, box and whisker plots, confidence intervals, difference charts, bullet graphs, candlestick plots and various other frequently used statistical graphics that are used in a various fields of study like computer science, statistics, financial risk analysis, perceptual psychology, semiotics and many others. we also present a new concept of composite marks in vega-lite to reduce redundancy of the specification grammar for most commonly used statistical graphics like error bars or traditional box and whisker plots. This helps in keeping the vega-lite specification maintain its concise nature.
       </p>
 
       <h2>Software</h2>
       <p>
         Try it online <a href="http://idl.cs.washington.edu/projects/lyra/app/">here</a>.
-        (Put detailed running instructions here if you don't have an online version available.
-        If your software requires some learning before using, you might want to put a short tutorial here.
+        This is a link to my personal version of vega-editor. Try out different examples I made using ranged marks, composite marks, and layering.
       </p>
 
       <h2>Materials</h2>
       <div class="links">
-        <a href="final/paper-jheer-mcorrell-jhoffs.pdf" >PDF</a>
+        <a href="final/paper-ayush29feb.pdf" >PDF</a>
         |
-        <a href="final/poster-jheer-mcorrell-jhoffs.pdf" >Poster</a>
+        <a href="final/poster-ayush29feb.pdf" >Poster</a>
         |
-        <a href="https://github.com/CSE512-16S/fp-jheer-mcorrell-jhoffs/">Code</a>
+        <a href="https://github.com/vega/vega-lite/tree/ayush/stat-demo">Code</a>
       </div>
-
-      <h2>Videos</h2>
-      <video width="700" height="385" controls="">
-        <source src="http://idl.cs.washington.edu/static/images/projects/lyra/Playfair-New.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-
 
       <div class='footer'>
         <a href='http://cs.washington.edu'>Computer Science &amp; Engineering</a> -
